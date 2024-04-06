@@ -1,0 +1,30 @@
+.v-checkbox {
+  .v-label {
+    color: var(--main_txt);
+    opacity: 1;
+    font-size: 12px;
+    margin-right: 3px;
+  }
+
+  &.permission {
+    .v-selection-control {
+      flex-direction: row-reverse;
+      justify-content: space-between;
+
+      label {
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+
+    &.head {
+      .v-selection-control {
+        label {
+          font-size: 16px;
+          font-weight: 600;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

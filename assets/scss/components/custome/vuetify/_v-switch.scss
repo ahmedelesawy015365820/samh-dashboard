@@ -1,0 +1,17 @@
+.v-input {
+  .v-input__control {
+    .v-selection-control {
+      min-height: 40px;
+      .v-selection-control__wrapper {
+        .v-switch__track {
+        }
+        .v-selection-control__input {
+        }
+      }
+      .v-label {
+        height: auto;
+        margin: 0;
+      }
+    }
+  }
+}
